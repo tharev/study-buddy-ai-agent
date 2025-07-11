@@ -11,8 +11,66 @@ langchain==0.0.330
 transformers==4.35.0
 torch==2.1.0
 scikit-learn==1.3.0
-numpy==1.24.3
-pandas==2.0.3
+# AI-Powered Study Buddy Agent - Comprehensive Requirements
+# Production-ready academic assistance platform with ML capabilities
+
+# ============================================================================
+# CORE WEB FRAMEWORK
+# ============================================================================
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+Jinja2==3.1.2
+
+# ============================================================================
+# DATABASE & ORM
+# ============================================================================
+SQLAlchemy==2.0.23
+sqlite3  # Built-in Python module
+psycopg2-binary==2.9.8  # PostgreSQL support
+PyMySQL==1.1.0  # MySQL support
+
+# ============================================================================
+# AI & MACHINE LEARNING
+# ============================================================================
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.24.4
+scipy==1.11.4
+
+# Natural Language Processing
+nltk==3.8.1
+spacy==3.7.2
+textblob==0.17.1
+
+# Advanced ML (Optional but recommended)
+tensorflow==2.15.0
+torch==2.1.1
+transformers==4.36.2
+
+# ============================================================================
+# DATA VISUALIZATION & ANALYTICS
+# ============================================================================
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+bokeh==3.3.2
+
+# ============================================================================
+# AUTHENTICATION & SECURITY
+# ============================================================================
+bcrypt==4.1.2
+PyJWT==2.8.0
+cryptography==41.0.8
+passlib==1.7.4
+
+# ============================================================================
+# HTTP & API
+# ============================================================================
+requests==2.31.0
+httpx==0.25.2pandas==2.0.3
 
 # Database
 sqlite3-database==0.0.1
